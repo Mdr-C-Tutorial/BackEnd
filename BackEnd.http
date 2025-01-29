@@ -1,0 +1,13 @@
+@BackEnd_HostAddress = http://localhost:5085
+
+POST {{BackEnd_HostAddress}}/login
+Content-Type: application/json
+
+{
+  "Username": "your_username",
+  "Password": "your_password",
+  "RememberMe": true
+}
+
+
+###
